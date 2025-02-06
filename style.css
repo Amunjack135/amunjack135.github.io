@@ -1,0 +1,35 @@
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow: hidden;
+    background-color: gray;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.menu li {
+    float: left;
+}
+
+.menu a:hover {
+    background-color: black;
+}
+
+.menu a.active{
+    text-align: center;
+    background-color: #20aa35;
+    color: #fcfcfc;
+
+}
+
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
